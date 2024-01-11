@@ -25,7 +25,7 @@ const BlogDetail = () => {
   ];
   return (
     <>
-      <div className="container max-w-5xl mx-auto  p-4 my-32 ">
+      <div id="Mentor" className="container    max-w-5xl mx-auto  p-4 my-32 ">
         <div>
           <h1 className=" text-4xl text-gray-600 font-bold">From The Blog</h1>
           <p className=" mt-4 mb-16">
