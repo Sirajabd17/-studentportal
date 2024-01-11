@@ -22,7 +22,7 @@ const FooterBar = () => {
 
   return (
     <>
-      <div className="main footer max-w-5xl mx-auto  p-4 my-32 ">
+      <div id="Contact" className="main footer max-w-5xl mx-auto  p-4 my-32 ">
         <div className=" flex gap-10">
           <div className="footer left w-1/4 ">
             <img src={HEADER_LOGO} alt="logo" />

@@ -1,6 +1,12 @@
 import CourseCard from "./Coursecard";
+import { useNavigate } from "react-router-dom";
 
 const Course = () => {
+  const navigate = useNavigate();
+  const ShowAllCourse = () => {
+    navigate("/coursepage");
+  };
+
   const courseDetails = [
     {
       id: 1,
@@ -78,7 +84,10 @@ const Course = () => {
           {/* Other components and content */}
         </div>
         <div className="flex justify-center">
-          <button className="text-center text-xl  my-16 rounded-full border-2 border-yellow-500 py-4 px-8 hover:text-yellow-500">
+          <button
+            onClick={ShowAllCourse}
+            className="text-center text-xl  my-16 rounded-full border-2 border-yellow-500 py-4 px-8 hover:text-yellow-500"
+          >
             {" "}
             View All Course{" "}
           </button>

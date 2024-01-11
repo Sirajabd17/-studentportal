@@ -2,7 +2,6 @@ import { HEADER_LOGO, NAVITEMS } from "../utils/constant";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  function click() {}
   return (
     <>
       <div className=" z-10 pt-4  fixed top-0 w-full bg-slate-50 ">
@@ -22,11 +21,14 @@ const Header = () => {
                     {item.content}
                   </a>
                 ) : (
-                  <Link to={item.link}>
+                  <Link
+                    to={item.link}
+                    className=" text-xl text-gray-400 hover:text-yellow-500 "
+                  >
                     {/* href={item.link} */}
-                    <a className=" text-xl text-gray-400 hover:text-yellow-500 ">
-                      {item.content}
-                    </a>
+                    {/* <a className=" text-xl text-gray-400 hover:text-yellow-500 "> */}
+                    {item.content}
+                    {/* </a> */}
                   </Link>
                 )}
               </li>

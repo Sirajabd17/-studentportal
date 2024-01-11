@@ -5,10 +5,9 @@ const CourseCard = ({ detail }) => {
     <>
       <div className=" w-80   rounded-md ">
         <img
-          className="h-64
-           w-96 hover:scale-110 duration-200 "
+          className="h-64 w-96 hover:scale-110 duration-200 "
           src={`${COURSE_IMAGE_BASE_URL}${detail.img}`}
-          alt="course image"
+          alt="course pic"
         />
         <h1 className="text-center text-2xl  mt-3 text-gray-500">
           {detail.course}

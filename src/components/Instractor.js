@@ -28,7 +28,7 @@ const InstructorDetails = () => {
   ];
   return (
     <>
-      <div className="container max-w-5xl mx-auto  p-4 my-20 ">
+      <div id="Blog" className="container max-w-5xl mx-auto  p-4 my-20 ">
         <div>
           <h1 className="text-center text-4xl text-gray-600 font-bold">
             Our Expert Instructors
