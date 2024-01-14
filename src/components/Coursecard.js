@@ -13,7 +13,7 @@ const CourseCard = ({ detail }) => {
           {detail.course}
         </h1>
         <div className="mt-4">
-          <div className="flex justify-evenly  text-xs mb-8">
+          <div className="flex justify-evenly  items-center text-xs mb-8">
             <i class="fa-regular fa-user">
               <span className="px-4">{detail.user}</span>
             </i>
