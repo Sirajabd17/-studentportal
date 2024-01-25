@@ -1,4 +1,4 @@
-import InstructorCard from "./InstructorCard";
+import InstructorCard from "./Instructorcard";
 const Instructor = () => {
   const teacherDetails = [
     {

@@ -1,4 +1,4 @@
-import BenifitsCourse from "./BenifitsCourse";
+import BenifitsCourse from "./Benifitscourse";
 import Blog from "./Blog";
 
 import Course from "./Course";
