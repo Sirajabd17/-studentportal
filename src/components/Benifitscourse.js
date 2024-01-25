@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { VIDEO_MEETING_IMGAE_URL } from "../utils/constant";
-const BenifitVideo = () => {
+const BenifitsCourse = () => {
   let obj = [
     {
       title: "200+ Online Course",
@@ -22,14 +22,14 @@ const BenifitVideo = () => {
   return (
     <>
       <div className="container max-w-6xl    my-32">
-        <div className="content flex gap-10">
+        <div className="content sm:flex gap-10">
           <img
-            className="w-3/5 ml-0"
+            className=" w-full sm:w-3/5 sm:ml-0"
             src={VIDEO_MEETING_IMGAE_URL}
             alt="all course img"
           />
-          <div>
-            <h1 className="text-gray-500 font-bold text-5xl mb-6 -mt-10">
+          <div className="w-full sm:w-2/5 mt-14">
+            <h1 className="text-gray-500 font-bold text-5xl mb-6 sm:-mt-10">
               What Makes us Different?
             </h1>
             <p>
@@ -50,7 +50,7 @@ const BenifitVideo = () => {
 };
 const KeyPoints = ({ title, desc, icon }) => {
   return (
-    <div className=" video meeting flex gap-14 mt-8">
+    <div className=" video meeting sm:flex gap-14 mt-8">
       <i className={`fa-solid ${icon} text-5xl mt-4 ml-4`}></i>
 
       <div>
@@ -60,4 +60,4 @@ const KeyPoints = ({ title, desc, icon }) => {
     </div>
   );
 };
-export default BenifitVideo;
+export default BenifitsCourse;

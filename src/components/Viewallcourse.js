@@ -4,7 +4,7 @@ const Allcourse = () => {
   return (
     <>
       <div className="container max-w-5xl mx-auto  p-4 ">
-        <div className="content flex gap-10">
+        <div className="content sm:flex gap-10">
           <div>
             <h1 className="text-gray-500 font-bold text-5xl mb-6">
               Welcome To Online Learning
@@ -25,7 +25,7 @@ const Allcourse = () => {
             </button>
           </div>
           <img
-            className="w-1/2"
+            className=" w-full sm:w-1/2"
             src={ALL_COURSE_IMAGE_URL}
             alt="all course img"
           />

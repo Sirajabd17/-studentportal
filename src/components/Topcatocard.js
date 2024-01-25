@@ -1,7 +1,7 @@
 const TopCard = ({ catogary }) => {
   return (
     <>
-      <div className=" w-1/4 text-center p-6 ">
+      <div className="w-full sm:w-1/4 text-center p-6 mb-2 ">
         <i
           className={`fa-solid  ${catogary.icon} text-5xl mb-6 hover:scale-110 duration-200 `}
         ></i>

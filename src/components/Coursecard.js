@@ -3,7 +3,7 @@ import { COURSE_IMAGE_BASE_URL } from "../utils/constant";
 const CourseCard = ({ detail }) => {
   return (
     <>
-      <div className=" w-80   rounded-md ">
+      <div className="w-full sm:w-80   rounded-md ">
         <img
           className="h-64 w-96 hover:scale-110 duration-200 "
           src={`${COURSE_IMAGE_BASE_URL}${detail.img}`}
@@ -14,13 +14,13 @@ const CourseCard = ({ detail }) => {
         </h1>
         <div className="mt-4">
           <div className="flex justify-evenly  items-center text-xs mb-8">
-            <i class="fa-regular fa-user">
+            <i className="fa-regular fa-user">
               <span className="px-4">{detail.user}</span>
             </i>
-            <i class="fa-regular fa-eye ">
+            <i className="fa-regular fa-eye ">
               <span className="px-4">{detail.view}</span>
             </i>
-            <i class="fa-regular fa-star ">
+            <i className="fa-regular fa-star ">
               <span className="px-2">{detail.rating}</span>
             </i>
             <span className="text-yellow-500 text-base">{detail.price}</span>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Accordian = ({ Question, Answer }) => {
+const AccordianCourse = ({ Question, Answer }) => {
   const [show, setShow] = useState(false);
   return (
     <>
@@ -21,4 +21,4 @@ const Accordian = ({ Question, Answer }) => {
     </>
   );
 };
-export default Accordian;
+export default AccordianCourse;

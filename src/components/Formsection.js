@@ -2,8 +2,8 @@ const Form = () => {
   return (
     <>
       <div className="container max-w-5xl mx-auto  p-4  mt-32 mb-32">
-        <div className="content flex gap-6">
-          <div>
+        <div className="content sm:flex gap-6">
+          <div className="">
             <h1 className="text-gray-500 font-bold text-5xl mb-6">
               Get In Touch
             </h1>
@@ -18,15 +18,15 @@ const Form = () => {
             <h1 className="text-2xl font-medium mb-2">000-2222-5555</h1>
             <h1 className="text-2xl font-medium">heloo@gmail.com</h1>
           </div>
-          <div className="w-3/4">
+          <div className=" sm:w-3/4">
             <form>
               <input
-                className="border-2 p-2  w-2/5 mr-10 mb-5  "
+                className="border-2 p-2 w-full sm:w-2/5  mb-5  "
                 type="text"
                 placeholder="Name"
               ></input>
               <input
-                className=" border-2  w-2/5 ml-16 p-2 "
+                className=" border-2 w-full p-2 sm:w-2/5 sm:ml-16 p- mb-5 "
                 type="text"
                 placeholder="Email"
               ></input>
@@ -41,7 +41,7 @@ const Form = () => {
                 type="text"
                 placeholder="message"
               ></textarea>
-              <button className="text-center text-white  ml-[450px] text-xl   rounded-lg border-2 bg-yellow-500 py-2 px-4 ">
+              <button className="text-center text-white  sm:ml-[450px] text-xl   rounded-lg border-2 bg-yellow-500 py-2 px-4 ">
                 {" "}
                 Send
               </button>

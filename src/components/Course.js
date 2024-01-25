@@ -77,7 +77,7 @@ const Course = () => {
           </p>
         </div>
 
-        <div className=" flex flex-wrap mx-28 gap-8">
+        <div className=" flex flex-wrap sm:mx-28 gap-8">
           {courseDetails.map((item) => (
             <CourseCard key={item.id} detail={item} />
           ))}

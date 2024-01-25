@@ -1,5 +1,5 @@
-import Instructor from "./Instructorcard";
-const InstructorDetails = () => {
+import InstructorCard from "./InstructorCard";
+const Instructor = () => {
   const teacherDetails = [
     {
       id: 1,
@@ -28,9 +28,9 @@ const InstructorDetails = () => {
   ];
   return (
     <>
-      <div id="Blog" className="container max-w-5xl mx-auto  p-4 my-20 ">
+      <div id="Mentor" className="container max-w-5xl mx-auto  p-4 mb-20 ">
         <div>
-          <h1 className="text-center text-4xl text-gray-600 font-bold">
+          <h1 className="text-center mt-20 text-4xl text-gray-600 font-bold">
             Our Expert Instructors
           </h1>
           <p className="text-center mt-4 mb-32">
@@ -38,9 +38,9 @@ const InstructorDetails = () => {
             elements you need to design and develop web UI efficiently.
           </p>
         </div>
-        <div className="flex  gap-4">
+        <div className="   sm:flex  gap-4">
           {teacherDetails.map((data) => (
-            <Instructor key={data.id} teacherData={data} />
+            <InstructorCard key={data.id} teacherData={data} />
           ))}
         </div>
       </div>
@@ -48,4 +48,4 @@ const InstructorDetails = () => {
   );
 };
 
-export default InstructorDetails;
+export default Instructor;

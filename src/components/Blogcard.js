@@ -1,11 +1,11 @@
 const BlogCard = ({ blogInfo }) => {
   return (
     <>
-      <div className=" w-1/3 text-left    border-2  rounded-lg">
+      <div className=" w-full sm:w-1/3 text-left  mb-20  border-2  rounded-lg">
         <img
           src={blogInfo.img}
           className=" w-full hover:scale-105 duration-200 "
-          alt="Instructor image"
+          alt="Instructor pic"
         />
         <h1 className=" text-3xl my-4 px-4  hover:text-yellow-500">
           {blogInfo.name}

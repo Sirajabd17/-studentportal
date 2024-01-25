@@ -1,10 +1,11 @@
-import BenifitVideo from "./Benifitscourse";
-import BlogDetail from "./Blog";
+import BenifitsCourse from "./BenifitsCourse";
+import Blog from "./Blog";
+
 import Course from "./Course";
 import Form from "./Formsection";
 
-import HeaderBelow from "./HeaderBottom";
-import InstructorDetails from "./Instractor";
+import HeaderBelow from "./HeaderBelow";
+import Instructor from "./Instructor";
 import TopCatogary from "./Topcatogary";
 import Allcourse from "./Viewallcourse";
 import Skills from "./skills";
@@ -18,9 +19,9 @@ const HomeAllPage = () => {
       <Allcourse />
       <TopCatogary />
 
-      <BenifitVideo />
-      <InstructorDetails />
-      <BlogDetail />
+      <BenifitsCourse />
+      <Instructor />
+      <Blog />
       <Form />
     </>
   );

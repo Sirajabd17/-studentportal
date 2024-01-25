@@ -7,7 +7,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import MainLayout from "./components/MainRouting";
 import HomeAllPage from "./components/HomeRouting";
 import Course from "./components/Course";
-import MainCoursePage from "./components/AllCoursePage";
+import MainCoursePage from "./components/CoursePageRouting";
 
 const router = createBrowserRouter([
   {

@@ -1,11 +1,11 @@
 import AllCourses from "./AllCoursePage";
-import TopicCourse from "./TopicsContent";
+import TopicContent from "./TopicsContent";
 
 const MainCoursePage = () => {
   return (
     <>
       <AllCourses />
-      <TopicCourse />
+      <TopicContent />
     </>
   );
 };

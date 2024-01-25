@@ -10,13 +10,13 @@ const AllCourses = () => {
     <>
       <div>
         <div
-          className="bg-center  relative pt-200 bg-no-repeat bg-cover pt-96 h-screen w-full"
+          className="bg-center  mt-48 relative pt-200 bg-no-repeat bg-cover pt-96 sm:h-screen sm:w-full"
           style={{
             backgroundImage:
               "url('https://preview.uideck.com/items/learn/assets/images/video-bg.jpg')",
           }}
         >
-          <div className="z-10 text-center ">
+          <div className=" pb-20 z-10 text-center ">
             <h1 className="text-6xl font-bold text-white mb-3">
               Course Single
             </h1>
@@ -34,8 +34,8 @@ const AllCourses = () => {
       </div>
 
       <div className="max-w-6xl mx-auto  p-4 my-20">
-        <div className="flex  gap-8">
-          <div className="w-2/3 ">
+        <div className=" w-full sm:flex  gap-8">
+          <div className=" w-full sm:w-2/3 ">
             <h1 className="text-3xl font-bold my-3"> Modern JavaScript</h1>
             <h1 className="text-lg">
               {" "}
@@ -63,9 +63,9 @@ const AllCourses = () => {
               adaptability and its ability to empower developers to build
               dynamic and interactive experiences for users worldwide.
             </p>
-            <hr class="h-px mt-16 bg-gray-400 border-0 "></hr>
+            <hr className="h-px mt-16 bg-gray-400 border-0 "></hr>
           </div>
-          <div className="  left section w-1/3 ">
+          <div className="  left section w-full sm:w-1/3 ">
             <div className="course container p-4  bg-gray-100">
               <h1 className="text-center text-3xl font-bold my-6">
                 Course Information
@@ -74,22 +74,22 @@ const AllCourses = () => {
                 <li className="text-gray-500">Start:</li>
                 <li>November 22,2030</li>
               </ul>
-              <hr class="h-px my-4 bg-gray-400 border-0 "></hr>
+              <hr className="h-px my-4 bg-gray-400 border-0 "></hr>
               <ul className="flex justify-between">
                 <li className="text-gray-500">Duration</li>
                 <li>November 28 Weeks</li>
               </ul>
-              <hr class="h-px my-4 bg-gray-400 border-0 "></hr>
+              <hr className="h-px my-4 bg-gray-400 border-0 "></hr>
               <ul className="flex justify-between">
                 <li className="text-gray-500">Study Level</li>
                 <li>Intermediate</li>
               </ul>
-              <hr class="h-px my-4 bg-gray-400 border-0 "></hr>
+              <hr className="h-px my-4 bg-gray-400 border-0 "></hr>
               <ul className="flex justify-between">
                 <li className="text-gray-500">Discipline</li>
                 <li>Other Course, Tech Courses</li>
               </ul>
-              <hr class="h-px my-4 bg-gray-400 border-0 "></hr>
+              <hr className="h-px my-4 bg-gray-400 border-0 "></hr>
               <ul className="flex justify-between">
                 <li className="text-gray-500">Price</li>
                 <li>$45.00</li>
@@ -102,27 +102,27 @@ const AllCourses = () => {
               <h1 className=" text-3xl font-bold my-6">Course Catogory</h1>
               <ul>
                 <li className="text-lg font-medium hover:text-yellow-500 mb-2 ">
-                  <i class="fa-solid fa-chevron-right  text-yellow-500"></i>{" "}
+                  <i className="fa-solid fa-chevron-right  text-yellow-500"></i>{" "}
                   Site Template
                 </li>
                 <li className="text-lg font-medium hover:text-yellow-500 mb-2 ">
                   {" "}
-                  <i class="fa-solid fa-chevron-right  text-yellow-500"></i>{" "}
+                  <i className="fa-solid fa-chevron-right  text-yellow-500"></i>{" "}
                   Site Template
                 </li>
                 <li className="text-lg font-medium hover:text-yellow-500 mb-2 ">
                   {" "}
-                  <i class="fa-solid fa-chevron-right  text-yellow-500"></i>{" "}
+                  <i className="fa-solid fa-chevron-right  text-yellow-500"></i>{" "}
                   Site Template
                 </li>
                 <li className="text-lg font-medium hover:text-yellow-500 mb-2 ">
                   {" "}
-                  <i class="fa-solid fa-chevron-right text-yellow-500"></i> Site
-                  Template
+                  <i className="fa-solid fa-chevron-right text-yellow-500"></i>{" "}
+                  Site Template
                 </li>
                 <li className="text-lg font-medium hover:text-yellow-500 mb-2 ">
                   {" "}
-                  <i class="fa-solid fa-chevron-right  text-yellow-500"></i>{" "}
+                  <i className="fa-solid fa-chevron-right  text-yellow-500"></i>{" "}
                   Site Template
                 </li>
               </ul>

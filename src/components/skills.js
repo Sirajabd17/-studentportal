@@ -28,7 +28,7 @@ const Skills = () => {
     <>
       <div className="container mx-auto  mt-20 p-4  ">
         <div>
-          <h1 className="text-center text-4xl text-gray-600 font-bold">
+          <h1 className=" text-center text-4xl text-gray-600 font-bold ">
             Learn Newskills
           </h1>
           <p className="text-center mt-4 mb-32">
@@ -37,7 +37,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className=" flex flex-wrap mx-28 gap-8">
+        <div className=" flex flex-wrap sm:mx-28 gap-8">
           {card1Detail.map((detail) => (
             <SkillCard key={detail.id} info={detail} />
           ))}
@@ -80,7 +80,7 @@ export default Skills;
 
         <div className=" w-96 h-48">
           <div className=" text-center mt-5">
-            <i class="fa-solid fa-magnifying-glass fa-flip fa-2xl"></i>
+            <i className="fa-solid fa-magnifying-glass fa-flip fa-2xl"></i>
           </div>
           <div className="">
             <h1 className=" text-gray-500 text-center mt-5 text-2xl font-bold">
@@ -97,7 +97,7 @@ export default Skills;
 
         <div className="  w-96 h-48">
           <div className="text-center mt-5">
-            <i class="fa-solid fa-certificate fa-flip fa-2xl"></i>
+            <i className="fa-solid fa-certificate fa-flip fa-2xl"></i>
           </div>
           <div className="content">
             <h1 className="  text-gray-500 text-center mt-5 text-2xl font-bold">
